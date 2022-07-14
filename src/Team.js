@@ -1,6 +1,9 @@
 function createTeam(team){
 //create three functions 
 //filter through team to manager info to 'Manager function", Engineer and intern functions
+
+//filter by id
+
 //map through information to return strings for each card
 
 //save all the pieces of html and return as one long string. 
@@ -20,6 +23,5 @@ module.exports = (team) =>{
         ${createTeam(team)}
     </body>
     </html>
-
     `
-}
+};
